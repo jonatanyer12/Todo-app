@@ -1,0 +1,66 @@
+:root{
+    --fuente: 'Mona Sans';
+    --rojoOs: rgb(247, 74, 35);
+    --rojo:rgb(205, 62, 30);
+    --blanco: rgb(250, 250, 250);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--fuente);
+    margin: 0;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.4rem;}
+    
+p{
+    font-size: 1.8rem;
+}
+.center{text-align: center;}
+.margin{
+    margin: 0;
+}
+.header{
+    padding: 1rem;
+}
+
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.container__tarea{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__tarea img{
+    width: 50%;
+}
+
+
+.boton{
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+}
+.boton--add{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.boton--add:hover{
+    background-color: var(--rojoOs);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    transform: translate(0, -.2rem);
+    transition: 0.5s ease;
+}
+
+
+/*Hacer modal*/
